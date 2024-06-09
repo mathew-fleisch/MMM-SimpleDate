@@ -6,11 +6,13 @@ This module uses [momentjs](https://momentjs.com) to pass the result from a date
 
 Clone the module into your modules folder:
 
-```shell
+```bash
 cd ~/MagicMirror/modules && git clone https://github.com/mathew-fleisch/MMM-SimpleDate
 ```
 
 ## Configuration
+
+Date format cheatsheet: https://devhints.io/moment
 
 ```javascript
 {
@@ -19,7 +21,7 @@ cd ~/MagicMirror/modules && git clone https://github.com/mathew-fleisch/MMM-Simp
   config: {
     // Unique id allows multiple modules with isolated css target 
     dateDivId: "SimpleDate",
-    // Format cheatsheet: https://devhints.io/moment
+    // Date format cheatsheet: https://devhints.io/moment
     dateFormat: "h:mm:ss a",
     // In seconds
     updateInterval: 1,
@@ -29,7 +31,7 @@ cd ~/MagicMirror/modules && git clone https://github.com/mathew-fleisch/MMM-Simp
 
 ## Styling
 
-The [template](MMM-SimpleDate.njk) uses the class `.SimpleDate` and passes the `config.dateDivId` value to the div's id field to enable multiple versions of this module to be easily styled in the same display
+The [template](MMM-SimpleDate.njk) uses the class `.SimpleDate` and passes the `config.dateDivId` value to the div's id field to enable multiple versions of this module to be easily styled in the same display. Add something similar to your css/custom.css file.
 
 ```css
 #SimpleDate {
