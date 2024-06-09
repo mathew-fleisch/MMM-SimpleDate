@@ -1,6 +1,6 @@
 # Module: SimpleDate
 
-This module uses [momentjs](https://momentjs.com) to pass the result from a date function to a div on some configurable loop.
+A module for the [MagicMirror](https://github.com/MagicMirrorOrg/MagicMirror) that uses [momentjs](https://momentjs.com) to pass the result from a date function to a div on some configurable loop.
 
 ## Setup
 
