@@ -1,0 +1,11 @@
+{
+  "name": "mmm-simpledate",
+  "version": "1.0.0",
+  "description": "A simple MagicMirror module to display a custom formatted date",
+  "main": "MMM-SimpleDate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mathew Fleisch",
+  "license": "ISC"
+}
